@@ -99,7 +99,7 @@ with open("README.md") as fh:
             break
 
 setup(
-    name="procgen2",
+    name="procgen2_pypi_testing",
     packages=find_packages(),
     version=version,
     install_requires=[
