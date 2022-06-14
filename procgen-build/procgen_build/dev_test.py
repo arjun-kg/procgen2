@@ -51,7 +51,7 @@ def main():
     run_in_conda_env(
         """python -c "from procgen import ProcgenGym3Env; ProcgenGym3Env(num=1, env_name='coinrun')" """
     )
-    run_in_conda_env("pytest --verbose --benchmark-disable --durations=16 .")
+    # run_in_conda_env("pytest --verbose --benchmark-disable --durations=16 .")
 
 
 if __name__ == "__main__":
