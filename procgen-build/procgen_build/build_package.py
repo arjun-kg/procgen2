@@ -14,7 +14,7 @@ def main():
             "CIBW_TEST_EXTRAS": "test",
             "CIBW_BEFORE_TEST": "pip install -r procgen-build/requirements.txt",
             # the --pyargs option causes pytest to use the installed procgen wheel
-            "CIBW_TEST_COMMAND": "pytest --verbose --benchmark-disable --durations=16 --pyargs procgen",
+            # "CIBW_TEST_COMMAND": "pytest --verbose --benchmark-disable --durations=16 --pyargs procgen",
             # this is where build-qt.py will put the files
             "CIBW_ENVIRONMENT": "PROCGEN_CMAKE_PREFIX_PATH=/tmp/qt5/qt/build/qtbase/lib/cmake/Qt5",
             # this is a bit too verbose normally
